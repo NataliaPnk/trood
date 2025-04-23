@@ -1,0 +1,48 @@
+.header {
+  padding: 40px;
+}
+
+.header > div {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header > div > h2 {
+  font-size: 24px;
+  font-weight: 900;
+  color: rgba(0, 0, 0, 1);
+  letter-spacing: 0%;
+}
+
+.header > div > div {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 24px;
+}
+
+.header > div > div > div:first-child {
+  display: flex;
+  width: 72px;
+  height: 24px;
+  gap: 24px;
+}
+
+.header > div > div > div:last-child {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.header > div > div > div:last-child > img {
+  width: 34px;
+  height: 34px;
+}
+
+.header > div > div > div:last-child > p {
+  color: rgba(156, 163, 175, 1);
+  font-size: 16px;
+  font-weight: 400;
+  letter-spacing: 0%;
+}
